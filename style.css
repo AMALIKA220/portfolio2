@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0px;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1, h2, h3 {
+    color: #f1e5e5;
+    text-align: center;
+    margin-top: 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #333336;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+.section {
+    padding: 20px 0;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #444;
+}
+
+.section ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Projects Styles */
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    background-color: #eaeaea;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin-top: 0;
+    color: #555;
+}
+
+/* Contact Section */
+#contact p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#contact a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
